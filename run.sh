@@ -1,3 +1,5 @@
 #!/bin/bash
 
-javac src/**/*.java -d classes
+# Compile code
+
+# Run code (Main class)
