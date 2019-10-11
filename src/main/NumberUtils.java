@@ -41,7 +41,7 @@ public class NumberUtils {
         int index = (""+this.number).toCharArray().length - 1;
         for (int placeNumber: getPartsOfNumber()) {
             if (index == 2) {
-                builder.append("einhundert");
+                builder.append("einhundertund");
             } else {
                 builder.append(this.numbers.get(placeNumber));
                 builder.append(this.placeValues.get(index));
