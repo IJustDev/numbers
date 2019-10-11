@@ -2,7 +2,6 @@ package main;
 
 import java.util.HashMap;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.lang.StringBuilder;
 
 public class NumberUtils {
@@ -46,6 +45,7 @@ public class NumberUtils {
                 builder.append(this.numbers.get(placeNumber));
                 builder.append(this.placeValues.get(index));
             }
+            index--;
         }
         return builder.toString();
     }
@@ -65,6 +65,7 @@ public class NumberUtils {
         this.numbers.put(7, "sieben");
         this.numbers.put(8, "acht");
         this.numbers.put(9, "neun");
+        this.numbers.put(21, "neun");
 
         // Exceptions
         this.exceptions.put(10, "zehn");
